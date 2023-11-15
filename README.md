@@ -9,7 +9,7 @@ A simple Node.js script to schedule system shutdowns.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/shutdownjs.git
+   git clone https://github.com/siraom15/shutdownjs.git
    cd shutdownjs
    ```
 
