@@ -2,7 +2,7 @@
 
 A simple Node.js script to schedule system shutdowns.
 
-![Demo](1.png)
+![Demo](/images/1.png)
 
 ## Installation
 
