@@ -2,6 +2,8 @@
 
 A simple Node.js script to schedule system shutdowns.
 
+![Demo](1.png)
+
 ## Installation
 
 1. Clone the repository:
