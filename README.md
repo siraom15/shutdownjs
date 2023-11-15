@@ -38,3 +38,11 @@ Now you can use the `shutdownjs` command globally. Run the following command to 
 ```bash
 shutdownjs
 ```
+
+Navigate through the menu using arrow keys, and press Enter to select an option. If you choose the "Enter custom time manually" option, you will be prompted to input the custom time.
+
+To terminate the script, you can use Ctrl+C or Ctrl+Z.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
