@@ -36,4 +36,3 @@ Now you can use the `shutdownjs` command globally. Run the following command to 
 ```bash
 shutdownjs
 ```
-# node-shutdownpc-cli
