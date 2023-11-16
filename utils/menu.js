@@ -44,6 +44,7 @@ const handleKeyPress = (ch, key) => {
       break;
     case "return":
       process.stdin.pause();
+      process.stdin.removeListener("keypress", handleKeyPress);
       handleReturnAction();
       break;
     case "c":
