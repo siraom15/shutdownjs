@@ -44,6 +44,7 @@ const handleKeyPress = (ch, key) => {
       break;
     case "return":
       process.stdin.pause();
+      process.stdin.removeListener("keypress", handleKeyPress);
       handleReturnAction();
       break;
     case "c":
@@ -88,8 +89,8 @@ const handleCustomTimeInput = () => {
       exit(1);
     }
 
-    const timeInMillis = timeInMins * 60 * 1000;
-    shutdown(timeInMillis);
+    const timeInSeconds = timeInMins * 60;
+    shutdown(timeInSeconds);
   });
 };
 export { displayMenu, handleKeyPress, handleReturnAction };
