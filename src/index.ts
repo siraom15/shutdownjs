@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import { displayMenu } from "./utils/menu.js";
-import { setupUserInputHandlers, handleExit } from "./utils/userInput.js";
+import { displayMenu } from "./menu.js";
+import { setupUserInputHandlers, handleExit } from "./userInput.js";
 
 const main = () => {
   setupUserInputHandlers();
