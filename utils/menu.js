@@ -80,7 +80,6 @@ const handleCustomTimeInput = () => {
     }
 
     const timeInMins = parseInt(result.customTime, 10);
-    console.log(timeInMins);
     if (isNaN(timeInMins) || timeInMins <= 0) {
       console.error(
         chalk.red(
