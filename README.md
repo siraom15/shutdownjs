@@ -22,7 +22,7 @@ A simple Node.js script to schedule system shutdowns.
 3. Make the script executable:
 
    ```bash
-   chmod +x shutdown.js
+   chmod +x index.js
    ```
 
 4. Link the script globally:
